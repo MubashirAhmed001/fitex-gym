@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}About Us{% endblock %}
+
+{% block content %}
+<div class="hero" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1570545906912-2e6b77d9c3d6?auto=format&fit=crop&w=1920') center/cover; min-height:100vh; padding:6rem 2rem; color:white;">
+    <div style="max-width:1000px; margin:0 auto; text-align:center;">
+        <h1 style="font-size:4rem; color:#d4af37; margin-bottom:1rem; text-shadow:0 0 15px rgba(212,175,55,0.5);">About FITEX</h1>
+        <p style="font-size:1.4rem; max-width:700px; margin:2rem auto; line-height:1.8;">
+            We don’t do gyms. We craft <strong>experiences</strong>. FITEX is where science meets luxury — every detail designed for the elite performer in you.
+        </p>
+
+        <div style="display:flex; justify-content:center; gap:3rem; flex-wrap:wrap; margin-top:4rem;">
+            <div style="background:rgba(26,26,26,0.9); padding:2.5rem; width:280px; border-radius:15px; backdrop-filter:blur(10px);">
+                <h3 style="color:#d4af37;">Our Vision</h3>
+                <p>Redefine fitness as art, discipline, and privilege.</p>
+            </div>
+            <div style="background:rgba(26,26,26,0.9); padding:2.5rem; width:280px; border-radius:15px; backdrop-filter:blur(10px);">
+                <h3 style="color:#d4af37;">Our Promise</h3>
+                <p>No crowds. No compromises. Only excellence.</p>
+            </div>
+            <div style="background:rgba(26,26,26,0.9); padding:2.5rem; width:280px; border-radius:15px; backdrop-filter:blur(10px);">
+                <h3 style="color:#d4af37;">Our Legacy</h3>
+                <p>Built for champions. Open to those who dare.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

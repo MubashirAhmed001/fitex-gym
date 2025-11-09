@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Membership{% endblock %}
+
+{% block content %}
+<h1 style="text-align:center; color:#d4af37;">Choose Your Plan</h1>
+
+<div style="display:flex; justify-content:center; gap:2rem; flex-wrap:wrap; margin:3rem 0;">
+
+    <div style="background:#1a1a1a; color:white; padding:2rem; width:260px; border-radius:10px; text-align:center;">
+        <h3>Signature</h3>
+        <p style="font-size:2rem; margin:1rem 0;">$199<span style="font-size:1rem;">/mo</span></p>
+        <ul style="text-align:left; list-style:none; padding:0;">
+            <li>Full gym access</li>
+            <li>1 PT session</li>
+            <li>2 guest passes</li>
+        </ul>
+        <a href="#" style="background:#d4af37; color:black; padding:0.7rem 1.5rem; border-radius:5px; display:inline-block; margin-top:1rem;">Join</a>
+    </div>
+
+    <div style="background:#1a1a1a; color:white; padding:2rem; width:260px; border-radius:10px; text-align:center; border:2px solid #d4af37; transform:scale(1.05);">
+        <div style="background:#d4af37; color:black; font-size:0.8rem; padding:0.3rem 1rem; border-radius:20px; display:inline-block; margin-bottom:0.5rem;">POPULAR</div>
+        <h3>Elite</h3>
+        <p style="font-size:2rem; margin:1rem 0;">$349<span style="font-size:1rem;">/mo</span></p>
+        <ul style="text-align:left; list-style:none; padding:0;">
+            <li>All Signature</li>
+            <li>4 PT sessions</li>
+            <li>VIP recovery</li>
+        </ul>
+        <a href="#" style="background:#d4af37; color:black; padding:0.7rem 1.5rem; border-radius:5px; display:inline-block; margin-top:1rem;">Join Elite</a>
+    </div>
+
+    <div style="background:#1a1a1a; color:white; padding:2rem; width:260px; border-radius:10px; text-align:center;">
+        <h3>Founding</h3>
+        <p style="font-size:2rem; margin:1rem 0;">$999<span style="font-size:1rem;">/mo</span></p>
+        <ul style="text-align:left; list-style:none; padding:0;">
+            <li>Unlimited PT</li>
+            <li>Private suite</li>
+            <li>Family add-on</li>
+        </ul>
+        <a href="#" style="background:#d4af37; color:black; padding:0.7rem 1.5rem; border-radius:5px; display:inline-block; margin-top:1rem;">Inquire</a>
+    </div>
+
+</div>
+{% endblock %}
