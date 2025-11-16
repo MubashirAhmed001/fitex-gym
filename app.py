@@ -24,5 +24,6 @@ def contact():
         flash(f'Thank you, {name}! We’ll reply to {email} soon.', 'success')
     return render_template('contact.html')
 
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8000)
